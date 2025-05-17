@@ -8,3 +8,13 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+# preferred log file name
+hugo.log
+hugo_stats.json
+.hugo_build.lock
+hugo.exe
+hugo.darwin
+hugo.linux
