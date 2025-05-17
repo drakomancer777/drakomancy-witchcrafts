@@ -1,0 +1,23 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+# preferred log file name
+hugo.log
+hugo_stats.json
+.hugo_build.lock
+hugo.exe
+hugo.darwin
+hugo.linux
+/resources/_gen/
+/public/
+/.idea/workspace.xml
