@@ -9,6 +9,12 @@ title = 'My New Hugo Site'
 [[module.imports]]
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
-# changes code-block style
+[markup]
+# Changes code-block style
 [markup.highlight]
+# Configs toc
 style = "catppuccin-macchiato"
+[markup.tableOfContents]
+endLevel = 5
+ordered = true
+startLevel = 2

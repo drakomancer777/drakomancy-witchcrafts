@@ -54,5 +54,4 @@ image = "ts-logo-128.jpg"
 `image` field accepts both local and external images.
 
 Big sorry for broken image lmao I'm going to need to place a TS logo in my directory at some point.
-
 YAML to TOML converters have been so useful in this trying time. https://www.convertsimple.com/convert-yaml-to-toml/
