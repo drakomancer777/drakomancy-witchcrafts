@@ -1,9 +1,14 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
 [module]
 # Order of import is significant
 # stack theme guide: https://stack.jimmycai.com/guide/getting-started
 # stack theme repo: https://github.com/CaiJimmy/hugo-theme-stack
 [[module.imports]]
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+# changes code-block style
+[markup.highlight]
+style = "catppuccin-macchiato"

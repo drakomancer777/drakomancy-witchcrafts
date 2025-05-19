@@ -1,8 +1,13 @@
 $defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
+/**default tag backgrounds
+#8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
+ */
 
 /*
 *   Global style
+*   big thanks to catppuccin community for their awesome palette ref
+*   https://catppuccin.com/palette/
 */
 :root {
   --main-top-padding: 35px;
@@ -142,13 +147,18 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
   --kbd-border-color: #dadada;
 
   &[data-scheme="dark"] {
+    /**originals
     --code-background-color: #272822;
     --code-text-color: rgba(255, 255, 255, 0.9);
-
+    --blockquote-background-color: rgb(75 75 75);
     --table-border-color: #717171;
     --tr-even-background-color: #545454;
-
-    --blockquote-background-color: rgb(75 75 75);
+     */
+    --code-background-color: #24273a;
+    --code-text-color: #a6e3a1;
+    --table-border-color: #94e2d5;
+    --tr-even-background-color: #181825;
+    --blockquote-background-color: #24273a;
   }
 }
 
@@ -171,8 +181,15 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 }
 
 [data-scheme="dark"] {
-  --pre-text-color: #f8f8f2;
+  /** originals
   --pre-background-color: #272822;
+   */
+  --pre-text-color: #a6e3a1;
+  --pre-background-color: #24273a;
+  /*
+  The highlight scss doesn't seem to actually affect the code block styles.
+  That setting is instead changed via hugo.toml
+   */
   @import "partials/highlight/dark.scss";
 }
 
