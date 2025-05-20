@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Dracomancy + Witchcrafts'
 
 [module]
 # Order of import is significant
@@ -12,8 +12,8 @@ path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 [markup]
 # Changes code-block style
 [markup.highlight]
-# Configs toc
 style = "catppuccin-macchiato"
+# Configs toc
 [markup.tableOfContents]
 endLevel = 5
 ordered = true
