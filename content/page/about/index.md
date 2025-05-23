@@ -10,16 +10,25 @@ weight = 100
 icon = 'user'
 +++
  
-I enjoy learning and creative projects. 
-Moreso, I enjoy monsters, creatures, dragons, horror, the unknown, the unexplained, dark colors, and dark days.
+I enjoy learning and creative projects.
 
----
+I appreciate monsters, creatures, dragons, horror, dark colors, and dark days.
 
-If it:
-- crawls around on thousands of jittering legs
-- calls your name from the forest glow in an eerily familiar voice
-- visits you in the corners of perception, knowing even you won't believe your own eyes
-- or expels the lords and ladies from their burning estates, 
-weighed down carrying whatever trinkets they could hold in their arms...  
+----
 
-Then I probably think it's pretty rad.
+I wanted somewhere to log my "process" when I create things 
+(process in quotes because lmao): 
+- organized, for future reference
+- digital format for shareability and easy referencing
+- Markdown-first because I abhor making html-first content, making doc/pdfs, and especially -- Microsoft Word
+
+And to: 
+- log and learn from my mistakes. 
+- note any useful strategies or techniques. 
+- collect any helpful resources in one place. 
+- maybe learn some Golang while I'm at it?
+  - IDK. 
+  - Some people made it sound like you had to learn Golang to launch on Hugo and I'm finding that's really not the case.
+    - Seriously the amount of Golang I know at this point is still 0 haha
+
+And so, here I am.

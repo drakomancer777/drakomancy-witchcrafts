@@ -25,7 +25,13 @@ because I've seen some varieties have numbers on them instead of bullet points
 
 ## Definition list
  Supposedly, this is an extension enabled by default.
-Lets give it a try
+Let's give it a try.
+
+```markdown
+**Apple**
+:   Pomaceous fruit of plants of the genus malus in the family Rosaceae
+:   An American computer company
+```
 
 **Apple**
 :   Pomaceous fruit of plants of the genus malus in the family Rosaceae
@@ -37,9 +43,8 @@ Lets give it a try
 Definitions can span multiple lines.
 
 **Multiple-line-definitions**
-:   if the definition spans more than one line, you should indent the 
-    on each line. However, it is also not required to indent on each
-    line
+:   if the definition spans more than one line, you should indent 
+    on each line. However, the indent is not required
 
 
 **Multi-paragraph-definitions**
@@ -53,6 +58,39 @@ Definitions can span multiple lines.
     >blockquotes
     > too
 
+    Definitions render inside of dl tags. I customized the css to center text 
+    in main articles. I made a few exceptions -- one of which is that text inside of a dl tag is left-justified. 
+    This is to preserve the format of the dictionary entries.
+
+## Tables
+I want to see how they render
+
+| Italics   | Bold     | Code   |
+| --------- | -------- | ------ |
+| _italics_ | **bold** | `code` |
+
+alright that's different from what I'm used to.
+Here's the code
+```markdown
+| Italics   | Bold     | Code   |
+| --------- | -------- | ------ |
+| _italics_ | **bold** | `code` |
+```
+
+Apparently, it supports alignment options with the `:` character
+
+| #  | Item        | Left aligned | Center aligned |   Right aligned|
+| -- | ----------- |:-------------|:--------------:| --------------:|
+| 1. | First item  | some text    | more text      | even more text |
+| 2. | Second item | some text    | more text      | even more text |
+| 3. | Third item  | some text    | more text      | even more text |
 
 
+```markdown
+| #  | Item        | Left aligned | Center aligned |   Right aligned|
+| -- | ----------- |:-------------|:--------------:| --------------:|
+| 1. | First item  | some text    | more text      | even more text |
+| 2. | Second item | some text    | more text      | even more text |
+| 3. | Third item  | some text    | more text      | even more text |
+```
 

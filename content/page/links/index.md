@@ -13,7 +13,11 @@ title = "TypeScript"
 description = "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript."
 website = "https://www.typescriptlang.org"
 image = "ts-logo-128.jpg"
-
+[[links]]
+title = "Catppuccin"
+description = "Catppuccin is a community-driven color scheme for coding, designing, and much more!"
+website = "https://catppuccin.com/"
+image = "https://raw.githubusercontent.com/catppuccin/catppuccin/refs/heads/main/assets/logos/exports/1544x1544_circle.png"
 [menu.main]
 weight = 4
 [menu.main.params]

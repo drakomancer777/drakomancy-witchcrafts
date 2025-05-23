@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://dracomancy+witchcrafts.org/'
 languageCode = 'en-us'
 title = 'Dracomancy + Witchcrafts'
 
@@ -14,7 +14,7 @@ path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 [markup]
 # Changes code-block style
 [markup.highlight]
-style = "catppuccin-macchiato"
+style = "catppuccin-frappe"
 # Configs toc
 [markup.tableOfContents]
 endLevel = 5

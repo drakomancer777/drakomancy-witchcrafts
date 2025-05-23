@@ -8,15 +8,23 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   https://catppuccin.com/palette/
 */
 :root {
-  --body-background: #f5f5fa;
+  --body-background: hsl(220deg, 21%, 86%);
+  --accent-color: hsl(180, 100%, 26%);
+  --accent-color-darker: rgba(130, 46, 239, 0.5);
+  --accent-color-text: #fff;
+  --body-text-color: rgba(79, 24, 155, 0.9);
 
+
+  /** originals
   --accent-color: #34495e;
   --accent-color-darker: #2c3e50;
-  --accent-color-text: #fff;
-  --body-text-color: #707070;
+
+  purple
+  --accent-color: hsl(265, 76%, 54%);
+   */
 
   &[data-scheme="dark"] {
-    --body-background:#181825;
+    --body-background:#1e1e2e;
     --body-text-color: rgba(138, 154, 254, 0.8);
     --accent-color: hsl(232deg, 99%, 77%);
     --accent-color-darker: hsl(231deg, 97%, 69%);
@@ -39,21 +47,20 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-  --card-background: #fff;
-  --card-background-selected: #eaeaea;
-
-  --card-text-color-main: #000;
-  --card-text-color-secondary: #747474;
-  --card-text-color-tertiary: #767676;
+  --card-background: #dce0e8;
+  --card-background-selected: #dce0e8;
+  --card-text-color-main: #434660;
+  --card-text-color-secondary: #4c4f69;
+  --card-text-color-tertiary: #5a5d7a;
   --card-separator-color: rgba(218, 218, 218, 0.5);
 
 
   &[data-scheme="dark"] {
-    --card-background: #181825;
+    --card-background: #1e1e2e;
     --card-background-selected: rgba(30, 30, 46, 0.16);
-    --card-text-color-main: rgba(145, 215, 227, 0.8);
-    --card-text-color-secondary: rgba(145, 215, 227, 0.6);
-    --card-text-color-tertiary: rgba(145, 215, 227, 0.5);
+    --card-text-color-main: rgba(145, 215, 227, 0.9);
+    --card-text-color-secondary: rgba(145, 215, 227, 0.7);
+    --card-text-color-tertiary: rgba(145, 215, 227, 0.7);
     --card-separator-color: rgba(30, 30, 46, 0.12);
   }
 }
@@ -76,29 +83,29 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Article content style
 */
 :root {
-  --blockquote-background-color: rgb(248 248 248);
+  --blockquote-background-color: rgba(0, 133, 133, 0.15);
 
   --link-background-color: rgb(138, 154, 254);
   --link-background-opacity: 0.5;
   --link-background-opacity-hover: 0.7;
 
-  --pre-background-color: #272822;
+  --pre-background-color: #303446;
   --pre-text-color: #f8f8f2;
 
-  --code-background-color: rgba(0, 0, 0, 0.12);
-  --code-text-color: #808080;
+  --code-background-color: #303446;
+  --code-text-color: #a6e3a1;
 
-  --table-border-color: #dadada;
-  --tr-even-background-color: #efefee;
+  --table-border-color: rgba(0, 133, 133, 0.3);
+  --tr-even-background-color: rgba(0, 133, 133, 0.1);
 
   --kbd-border-color: #89dceb;
 
   &[data-scheme="dark"] {
-    --code-background-color: #24273a;
+    --code-background-color: #303446;
     --code-text-color: #a6e3a1;
-    --table-border-color: #89dceb;
-    --tr-even-background-color: #181825;
-    --blockquote-background-color: #24273a;
+    --table-border-color: rgba(137, 220, 235, 0.1);
+    --tr-even-background-color: rgba(137, 220, 235, 0.05);
+    --blockquote-background-color: rgba(137, 220, 235, 0.05);
   }
 }
 
@@ -115,20 +122,21 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 }
 
 [data-scheme="light"] {
-  --pre-text-color: #272822;
-  --pre-background-color: #fafafa;
+  --pre-text-color: #f8f8f2;
+  --pre-background-color: #303446;
   @import "partials/highlight/light.scss";
 }
 
 [data-scheme="dark"] {
   --pre-text-color: #a6e3a1;
-  --pre-background-color: #24273a;
+  --pre-background-color: #303446;
   /*
   Code block style changed via hugo.toml
    */
   @import "partials/highlight/dark.scss";
 }
 
+//Centers article content with exceptions
 .article-content {
   text-align: center;
   ol {
@@ -138,7 +146,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
   }
   ul {
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
   }
   dl {
     text-align: left;
