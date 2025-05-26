@@ -4,7 +4,7 @@ title = 'Archives'
 layout = 'archives'
 slug = 'archives'
 [menu.main]
-weight = 2
+weight = 9
 [menu.main.params]
 icon = 'archives'
 +++
