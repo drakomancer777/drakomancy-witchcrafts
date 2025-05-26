@@ -1,8 +1,6 @@
 baseURL = 'https://dracomancy+witchcrafts.org/'
 languageCode = 'en-us'
-title = 'Dracomancy + Witchcrafts'
-
-
+title = 'Drakomancy + Witchcrafts'
 
 [module]
 # Order of import is significant
@@ -11,12 +9,9 @@ title = 'Dracomancy + Witchcrafts'
 [[module.imports]]
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
-[markup]
-# Changes code-block style
-[markup.highlight]
-style = "catppuccin-frappe"
-# Configs toc
-[markup.tableOfContents]
-endLevel = 5
-ordered = true
-startLevel = 2
+[pagination]
+pagerSize = 5
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'

@@ -1,0 +1,22 @@
+# Markdown renderer configuration
+[goldmark.renderer]
+unsafe = true
+
+[goldmark.extensions.passthrough]
+enable = true
+
+# LaTeX math support
+# https://gohugo.io/content-management/mathematics/
+[goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+
+#configs codeblock highlighting
+[highlight]
+style = "catppuccin-frappe"
+
+# Configs toc
+[tableOfContents]
+endLevel = 5
+ordered = true
+startLevel = 2
