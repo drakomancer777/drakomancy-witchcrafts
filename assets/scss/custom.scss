@@ -180,10 +180,10 @@ Thanks: https://gwfh.mranftl.com/fonts
 *   --base-font-family: 'Atkinson Hyperlegible Next', var(--sys-font-family), var(--zh-font-family), sans-serif;
 */
 :root {
-  --sys-font-family: 'Atkinson Hyperlegible Next', 'Tahoma', sans-serif;
+  --sys-font-family: 'Atkinson Hyperlegible Next', sans-serif;
   --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
-  --base-font-family: 'Atkinson Hyperlegible Next', 'Tahoma', sans-serif;
+  --base-font-family: 'Atkinson Hyperlegible Next', sans-serif;
   --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
 
@@ -213,7 +213,7 @@ Thanks: https://gwfh.mranftl.com/fonts
 *   Article content font settings
 */
 :root {
-  --article-font-family: "Atkinson Hyperlegible Next", "Tahoma", sans-serif;
+  --article-font-family: "Atkinson Hyperlegible Next", sans-serif;
   --article-font-size: 1.6rem;
 
   @include respond(md) {
@@ -298,4 +298,4 @@ Thanks: https://gwfh.mranftl.com/fonts
   }
 }
 
-body {font-family: 'Atkinson Hyperlegible Next', 'Tahoma', sans-serif;}
+* {font-family: 'Atkinson Hyperlegible Next', sans-serif !important;}
