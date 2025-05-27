@@ -161,21 +161,20 @@ Thanks: https://gwfh.mranftl.com/fonts
 
 
   /** originals
-
+ --accent-color-darker: hsl(231deg, 97%, 65%);
    */
-
   &[data-scheme="dark"] {
     --body-background:#1e1e2e;
-    --body-text-color: rgba(138, 154, 254, 0.9);
-    --accent-color: hsl(232deg, 99%, 77%);
-    --accent-color-darker: hsl(231deg, 97%, 69%);
+    --body-text-color: rgba(137, 220, 235, 0.9);
+    --accent-color: hsl(232deg, 99%, 75%);
+    --accent-color-darker: hsl(231deg, 97%, 65%);
     --accent-color-text: #000;
   }
 }
 
 /**
 *   Global font family
-*   --sys-font-family: 'Atkinson Hyperlegible Next', "AppleGothic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue";
+*   --sys-font-family: 'Century Gothic', "AppleGothic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue";
 *   --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 *   --base-font-family: 'Atkinson Hyperlegible Next', var(--sys-font-family), var(--zh-font-family), sans-serif;
 */
@@ -184,7 +183,7 @@ Thanks: https://gwfh.mranftl.com/fonts
   --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
   --base-font-family: 'Atkinson Hyperlegible Next', sans-serif;
-  --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+  --code-font-family: Consolas, "Courier New", Monaco, var(--zh-font-family), monospace;
 }
 
 /*
@@ -202,9 +201,9 @@ Thanks: https://gwfh.mranftl.com/fonts
   &[data-scheme="dark"] {
     --card-background: #1e1e2e;
     --card-background-selected: rgba(30, 30, 46, 0.16);
-    --card-text-color-main: rgba(145, 215, 227, 0.9);
-    --card-text-color-secondary: rgba(145, 215, 227, 0.7);
-    --card-text-color-tertiary: rgba(145, 215, 227, 0.7);
+    --card-text-color-main: rgba(205, 214, 244, 0.8);
+    --card-text-color-secondary: rgba(205, 214, 244, 0.7);
+    --card-text-color-tertiary: rgba(205, 214, 244, 0.5);
     --card-separator-color: rgba(30, 30, 46, 0.12);
   }
 }
