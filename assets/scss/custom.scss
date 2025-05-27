@@ -213,14 +213,14 @@ Thanks: https://gwfh.mranftl.com/fonts
 *   Article content font settings
 */
 :root {
-  --article-font-family: "Atkinson Hyperlegible Next", sans-serif;
+  --article-font-family: var(--base-font-family);
   --article-font-size: 1.6rem;
 
   @include respond(md) {
     --article-font-size: 1.85rem;
   }
 
-  --article-line-height: 1.85;
+  --article-line-height: 2;
 }
 
 /*
@@ -298,4 +298,9 @@ Thanks: https://gwfh.mranftl.com/fonts
   }
 }
 
-* {font-family: 'Atkinson Hyperlegible Next', sans-serif !important;}
+//* {font-family: 'Atkinson Hyperlegible Next', sans-serif !important;}
+//tries to style goat diagrams lol
+svg {
+  font-size: 1.2rem;
+  font-family: Consolas, "Courier New", monospace;
+}
