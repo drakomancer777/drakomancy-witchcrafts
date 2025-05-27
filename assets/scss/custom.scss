@@ -213,7 +213,7 @@ Thanks: https://gwfh.mranftl.com/fonts
 *   Article content font settings
 */
 :root {
-  --article-font-family: var(--base-font-family);
+  --article-font-family: "Atkinson Hyperlegible Next", "Tahoma", sans-serif;
   --article-font-size: 1.6rem;
 
   @include respond(md) {
@@ -282,7 +282,6 @@ Thanks: https://gwfh.mranftl.com/fonts
 
 //Centers article content with exceptions
 .article-content {
-  font-family:  "Atkinson Hyperlegible Next", "Tahoma", sans-serif;
   font-weight: 400;
   text-align: center;
   ol {
@@ -299,4 +298,4 @@ Thanks: https://gwfh.mranftl.com/fonts
   }
 }
 
-body {font-family: "Atkinson Hyperlegible Next", "Tahoma", sans-serif;}
+body {font-family: 'Atkinson Hyperlegible Next', 'Tahoma', sans-serif;}
